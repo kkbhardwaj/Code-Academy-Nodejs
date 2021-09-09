@@ -1,0 +1,23 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+
+block style     
+    style 
+        include ../static/style.css
+        include ../static/style1.css
+
+block content
+    section#intro 
+        div.con1
+            h1 Coding Community
+        div.con 
+            h2 Some of the best coding comunities to join are :
+        div.contentp 
+            a(href="https://www.womenwhocode.com/"  target="_blank") Women Who Code 🔗   
+            a(href="https://hashnode.com/"  target="_blank") Hash Node 🔗
+            a(href="https://www.freecodecamp.org/"  target="_blank") Free Code Camp 🔗
+            a(href="https://news.ycombinator.com/"  target="_blank") Hacker News 🔗
+            a(href="https://hackernoon.com/"  target="_blank") Hacker Noon 🔗
+        
+

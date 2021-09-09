@@ -1,0 +1,32 @@
+.contentp{
+    display: flex;
+    flex-direction: column;
+}
+.contentp a{
+    text-decoration: none;
+    margin: 12px 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 12px;
+    color: beige;
+    padding-top: 22px;
+    font-size: 2.5rem;
+}
+#intro{
+    margin: 22px;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    
+}
+#intro .con1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 12px;
+}
+#intro .con{
+    display: flex;
+    padding-left: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}

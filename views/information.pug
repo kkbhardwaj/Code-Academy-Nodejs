@@ -1,0 +1,33 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+
+block style     
+    style 
+        include ../static/style.css
+        include ../static/style2.css
+block content 
+    section#beginner
+        h2 Resources for Learning
+        div.card1
+                h3 Coursera 
+                div.card-box1
+                    div.card-img1
+                        img(src="/static/img/ce.png")
+                    div.card-content1
+                        a(href="https://www.coursera.org/in" target="_blank") Here's The Link 🔗
+        div.card1
+                h3 GeeksForGeeks
+                div.card-box1 
+                    div.card-img1
+                        img(src="/static/img/gfg.png")
+                    div.card-content1
+                        a(href="https://www.geeksforgeeks.org/" target="_blank") Here's The Link 🔗
+        div.card1
+                h3 FreeCodeCamp
+                div.card-box1
+                    div.card-img1
+                        img(src="/static/img/fcc.png")
+                    div.card-content1
+                        a(href="https://freecodecamp.org/" target="_blank") Here's The Link 🔗              
+
